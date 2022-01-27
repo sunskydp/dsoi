@@ -127,8 +127,8 @@ aside ul li a:hover {
 }
 
 .minibody aside {
-    width: 50px;
-    text-align: center;
+    width: 100px;
+    text-align: start;
 }
 
 .minibody aside ul li a {
