@@ -4,6 +4,6 @@
 
 网址：[https://sunskydp.github.io/dsoi/index.html](https://sunskydp.github.io/dsoi/index.html)
 
-现版本预览:
+现版本（V0.3.3）预览:
 
-![](https://cdn.luogu.com.cn/upload/image_hosting/bud12qrw.png)
+![](https://cdn.luogu.com.cn/upload/image_hosting/itfta3qn.png)
