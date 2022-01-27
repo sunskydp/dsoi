@@ -1,34 +1,3 @@
-/*body{
-    background-image: url("https://cdn.luogu.com.cn/upload/image_hosting/ldt7cnuw.png");
-    background-repeat: no-repeat;
-    /*opacity:1;*/
-}/*
-.container {
-    text-align: center;
-    background: black no-repeat;
-}*/
-.demo {
-    text-align: start;
-    position: fiexd;
-    background-color: white;
-    opacity: 0.8;
-}
-
-.demo p {
-    text-align: start;
-    color: black;
-}
-.demo2 {
-    text-align: center;
-    position: fiexd;
-    background-color: white;
-    opacity: 0.8;
-}
-
-.demo2 p {
-    text-align: center;
-    color: black;
-}*/
 * {
     padding: 0;
     margin: 0;
@@ -158,7 +127,7 @@ aside ul li a:hover {
 }
 
 .minibody aside {
-    width: 40px;
+    width: 50px;
     text-align: center;
 }
 
@@ -179,13 +148,13 @@ aside ul li a:hover {
 #nav {
     line-height:30px;
     /*background-color:black;*/
-    height:300px;
+    height:700px;
     width:100px;
     float:left;
     padding:5px; 
 }
 #section {
-    width:1040px;
+    width:1000px;
     float:right;
     padding:10px; 
     color:black;
