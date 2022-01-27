@@ -6,4 +6,4 @@
 
 现版本（V0.3.3）预览:
 
-![](https://cdn.luogu.com.cn/upload/image_hosting/itfta3qn.png)
+![](https://cdn.luogu.com.cn/upload/image_hosting/d8z6sdqe.png)
