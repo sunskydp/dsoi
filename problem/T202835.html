@@ -1,1 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      DSOI官方网站-T202835 账号管理系统
+    </title>
+    <link rel="shortcut icon" href="https://cdn.luogu.com.cn/upload/image_hosting/52b8p2a1.png">
+    <link rel="stylesheet" href="demo.css"/>
+  </head>
+  <body>
+    <div id="header">
+        <h1>
+            DSOI官方网站
+        </h1>
+    </div>
+    <div id="nav">
+        <aside>
+            <script>
+                var body = document.getElementsByTagName("body")[0]
+                var aside = document.getElementsByTagName("aside")[0]
 
+                function list() {
+                    if (aside.clientWidth <= 40) {
+                        body.className = ""
+                    } else if (aside.clientWidth > 40) {
+                        console.log("side")
+                        body.className = "minibody"
+                    }
+                }
+            </script>
+            <button class="btn" onclick="list()">
+                三
+            </button>
+            <ul>
+                <li class="first">
+                    <div class="logo">
+                        导航栏
+                    </div>
+                </li>
+                <li>
+                    <a href="/dsoi/index.html">
+                        🌎
+                        <span class="listtext">
+                            官网主站
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/dsoi/gonggao.html">
+                        💼
+                        <span class="listtext">
+                            维护公告
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/dsoi/join.html">
+                        🏠
+                        <span class="listtext">
+                            加入出题组
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.luogu.com.cn/team/37687">
+                        🚩
+                        <span class="listtext">
+                            洛谷DSOI团队
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.luogu.com.cn/user/375241">
+                        📞
+                        <span class="listtext">
+                            洛谷私信团主
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/dsoi/contest.html">
+                       🎖️
+                        <span class="listtext">
+                            比赛
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/dsoi/t.html">
+                       💲
+                        <span class="listtext">
+                            题目
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+    <div id="section">
+        <div class="demo">
+    <h1>T202835 账号管理系统</h1>
+      <h2>题目描述</h2>
+          <p>fj有许多的账号, 但他总是记不住, 于是找到了学信奥的你, 请你帮他写一个账号管理系统。</p>
+      <h2>输入格式</h2>
+          <p>第一行输入一个数 N 和 M, 分别表示fj的账号数量和小A的操作数量。</p>
+          <p>接下来 N 行, 每行用空格隔开的两个字符串 Di 和 Pi, 分别表示账号和密码。</p>
+          <p>再接下来 M 行, 每行一个数 Fi 和一个字符串 Si, 分别表示fj操作的编号和要操作的账号。</p>
+          <p>操作编号只有 1 和 2, 操作方法具体如下：</p>
+          <p>操作编号1：查询账号为 Si 的密码。</p>
+          <p>操作编号2：删除账号为 Si 的密码。</p>
+      <h2>输出格式</h2>
+          <p>对于每一个操作的返回输出如下:</p>
+          <p>操作编号1：如果找到了,输出其对应的密码;如果没找到, 输出“Not found.”。</p>
+          <p>操作编号2：如果有这个账号,输出“Completed.”;如果没找到, 输出“Error.”。</p>
+      <h2>输入样例 #1</h2>    
+          <p><code>2 2</code></p>
+          <p><code>xiao_A password</code></p>
+          <p><code>xiao_ming 13123AU09</code></p>
+          <p><code>1 xiao_A</code></p>
+          <p><code>2 xiao_A</code></p>
+      <h2>输出样例 #1</h2>
+          <p><code>password</code></p>
+          <p><code>Completed.</code></p>
+      <h2>说明/提示</h2>
+          <p>n ≤ m ≤ 100</p>
+          <p>Di ≤ Pi ≤ Fi ≤ Si ≤ 2<sup>31</sup></p>
+     
+    <p><button onclick="location.href='/dsoi/index.html'">返回官网主页</button></p>
+                                                         <footer>
+  <p>Powerd by @SunSkydp©2021-2022</p>
+</footer></div>
+</div>
+  </body>
+</html>
