@@ -1,9 +1,35 @@
 body{
     background-image: url("https://cdn.luogu.com.cn/upload/image_hosting/ldt7cnuw.png");
     background-repeat: no-repeat;
-    opacity:1;
+    /*opacity:1;*/
+}/*
+.container {
+    text-align: center;
+    background: black no-repeat;
+}*/
+.demo {
+    text-align: start;
+    position: fiexd;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.demo p {
+    text-align: start;
+    color: black;
+}
+.demo2 {
+    text-align: center;
+    position: fiexd;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.demo2 p {
+    text-align: center;
+    color: black;
 }
 .wenzi{
     color: black;
-    background: white;
+    /*background: white;*/
 }
