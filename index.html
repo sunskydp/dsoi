@@ -1,39 +1,136 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>
-      DSOI官方网站
-    </title>
-    <link rel="shortcut icon" href="https://cdn.luogu.com.cn/upload/image_hosting/52b8p2a1.png">
-     <link rel="stylesheet" href="/dsoi/demo.css"/>                                                                                          
-  </head>
-  <body style=" text-align:center;" >
-    <img src="https://cdn.luogu.com.cn/upload/image_hosting/jug0olnj.png">
-     <div class="demo2">                                                                    
-    <h1>Double S OI 日天蒟蒻团</h1>
-    <p>
-    您可以联系
-      <a target="_blank" href="https://www.luogu.com.cn/team/37687">日天蒟蒻团</a>
-      捐钱或提供帮助，也可以在<a target="_blank" href="https://www.luogu.com.cn/">洛谷</a>私信
-      <a target="_blank" href="https://www.luogu.com.cn/user/375241">团主@SunSkydp</a>
-      提出相关意见或提供帮助。
-    </p>
-    <p>
-      维护公告：
-      <button onclick="location.href='/dsoi/gonggao.html'">这个</button>
-    </p>
-    <p>
-      项目地址：
-      <a target="_blank" href="https://github.com/sunskydp/dsoi">这个</a>
-    </p>
-    <p>
-        本网站访问次数：
-        <img src="https://badges.toozhao.com/badges/01FTB94YFFD0SBBD6FG4BXQR1W/green.svg" />                                                      
-      </p>
-    <button onclick="location.href='/dsoi/join.html'">加入出题组吧</button>
-    <footer>
-  <p>Powerd by @SunSkydp©2021-2022</p>
-</footer></div>
-  </body>
+	<head>
+		<title>
+			DSOI官方网站
+		</title>
+		<link rel="shortcut icon" href="https://cdn.luogu.com.cn/upload/image_hosting/52b8p2a1.png">
+		<link rel="stylesheet" href="demo.css" />
+		<link rel="stylesheet" href="link.css" />
+	</head>
+	<body>
+		<div id="header">
+			<h1>
+				DSOI官方网站
+			</h1>
+		</div>
+		<div id="nav">
+			<aside>
+				<script>
+					var body = document.getElementsByTagName("body")[0]
+                    var aside = document.getElementsByTagName("aside")[0]
+
+                    function list() {
+                        if (aside.clientWidth <= 40) {
+                            body.className = ""
+                        } else if (aside.clientWidth > 40) {
+                            console.log("side")
+                            body.className = "minibody"
+                        }
+                    }
+				</script>
+				<button class="btn" onclick="list()">
+					三
+				</button>
+				<ul>
+					<li class="first">
+						<div class="logo">
+						    导航栏
+						</div>
+					</li>
+					<li>
+						<a href="/dsoi/index.html">
+							🌎
+							<span class="listtext">
+								官网主站
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="/dsoi/gonggao.html">
+							💼
+							<span class="listtext">
+								维护公告
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="/dsoi/join.html">
+							🏠
+							<span class="listtext">
+								加入出题组
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.luogu.com.cn/team/37687">
+							🚩
+							<span class="listtext">
+								洛谷DSOI团队
+							</span>
+						</a>
+                    </li>
+					<li>
+						<a href="https://www.luogu.com.cn/user/375241">
+							📞
+							<span class="listtext">
+								洛谷私信团主
+							</span>
+						</a>
+					</li>
+				</ul>
+			</aside>
+		</div>
+		<div id="section">
+			<body style=" text-align:center;">
+				<img src="https://cdn.luogu.com.cn/upload/image_hosting/jug0olnj.png">
+				<div class="demo2">
+					<h1>
+						Double S OI 日天蒟蒻团
+					</h1>
+					<p>
+						您可以联系
+						<a target="_blank" href="https://www.luogu.com.cn/team/37687">
+							日天蒟蒻团
+						</a>
+						捐钱或提供帮助，也可以在
+						<a target="_blank" href="https://www.luogu.com.cn/">
+							洛谷
+						</a>
+						私信
+						<a target="_blank" href="https://www.luogu.com.cn/user/375241">
+							团主@SunSkydp
+						</a>
+						提出相关意见或提供帮助。
+					</p>
+					<p>
+						维护公告：
+						<button onclick="location.href='/dsoi/gonggao.html'">
+							这个
+						</button>
+					</p>
+					<p>
+						项目地址：
+						<a target="_blank" href="https://github.com/sunskydp/dsoi">
+							这个
+						</a>
+					</p>
+					<p>
+						本网站访问次数：
+						<img src="https://badges.toozhao.com/badges/01FTB94YFFD0SBBD6FG4BXQR1W/green.svg"
+						/>
+					</p>
+					<button onclick="location.href='/dsoi/join.html'">
+						加入出题组吧
+					</button>
+					<footer>
+						<p>
+							Powerd by @SunSkydp©2021-2022
+						</p>
+					</footer>
+				</div>
+			</body>
+		</div>
+	</body>
+
 </html>
