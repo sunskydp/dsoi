@@ -148,7 +148,7 @@ aside ul li a:hover {
 #nav {
     line-height:30px;
     /*background-color:black;*/
-    height:700px;
+    height:100%;/*750%*/
     width:100px;
     float:left;
     padding:5px; 
