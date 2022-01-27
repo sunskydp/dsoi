@@ -1,29 +1,5 @@
-div{          
-    width: 250px;
-    height: 250px;
-    background: aqua;
-}
-
-.odd{      
-    color: crimson;
-}
-
-.bg{
-    background: darkcyan;
-    color: aquamarine;
-}
-
-div p{      
-    font-size: 60px;
-}
-
-.onediv{
-    color: coral;
-}
-
 body{
     background-image: url("https://cdn.luogu.com.cn/upload/image_hosting/ldt7cnuw.png");
-    opacity: 0.5;
     background-repeat: no-repeat;
 }
 .wenzi{
