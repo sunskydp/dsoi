@@ -23,5 +23,6 @@ div p{
 
 body{
     background-image: url("https://cdn.luogu.com.cn/upload/image_hosting/ldt7cnuw.png");
+    opacity: 0.5;
     background-repeat: no-repeat;
 }
