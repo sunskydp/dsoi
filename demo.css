@@ -1,0 +1,22 @@
+div{          
+    width: 250px;
+    height: 250px;
+    background: aqua;
+}
+
+.odd{      
+    color: crimson;
+}
+
+.bg{
+    background: darkcyan;
+    color: aquamarine;
+}
+
+div p{      
+    font-size: 60px;
+}
+
+.onediv{
+    color: coral;
+}
