@@ -127,7 +127,7 @@ aside ul li a:hover {
 }
 
 .minibody aside {
-    width: 50px;
+    width: 100px;
     text-align: center;
 }
 
@@ -154,7 +154,7 @@ aside ul li a:hover {
     padding:5px; 
 }
 #section {
-    width:1000px;
+    width:900px;
     float:right;
     padding:10px; 
     color:black;
