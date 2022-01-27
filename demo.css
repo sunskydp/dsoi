@@ -1,6 +1,7 @@
 body{
     background-image: url("https://cdn.luogu.com.cn/upload/image_hosting/ldt7cnuw.png");
     background-repeat: no-repeat;
+    opacity:1;
 }
 .wenzi{
     color: black;
